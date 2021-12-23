@@ -10,8 +10,8 @@ $latex_silent = 'platex -synctex=1 -halt-on-error -interaction=batchmode';
 # pbibtex
 $bibtex = 'pbibtex';
 
-# div -> pdf output main.pdf 
-$dvipdf = 'dvipdfmx %O -o main.pdf %S';
+# div -> pdf output pdf 
+$dvipdf = 'dvipdfmx %O -o %D %S';
 
 # index
 $makeindex = 'mendex %O -o %D %S';
